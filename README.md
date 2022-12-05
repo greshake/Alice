@@ -3,7 +3,7 @@ Giving ChatGPT access to a real terminal..?
 
 Browsing: enabled
 
-Using lots of prompt injections to convince ChatGPT that it can actually operate a computer. 
+Using lots of prompt injections to convince ChatGPT that it can actually operate a computer, and use it to perform real-world tasks. Just ask Alice/ChatGPT for what you want to get done, and it will generate the commands to do it, and use the feedback from those commands to either execute more (like installing dependencies etc) or finish with a user-facing natural language summary of the action performed.
 
 ## Disclaimer-avalanche
 Disclaimer -2: Do not run my buggy code. I don't want to be responsible for borked machines.
