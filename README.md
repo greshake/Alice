@@ -5,21 +5,16 @@ Browsing: enabled
 
 Using lots of prompt injections to convince ChatGPT that it can actually operate a computer, and use it to perform real-world tasks. Just ask Alice/ChatGPT for what you want to get done, and it will generate the commands to do it, and use the feedback from those commands to either execute more (like installing dependencies etc) or finish with a user-facing natural language summary of the action performed.
 
-**This version does not run out of the box, as OpenAI has not released an API and I'm not publishing a reversed API. If that changes in the future there will be installation & use instructions. If you want to use it already, you have to make it work yourself.**
+**This version does not run out of the box, as OpenAI has not released an API and I'm not publishing a reversed API. If that changes in the future there will be installation & use instructions. If you want to use it already, you have to make it work yourself- which may or may not violate OpenAI ToS.**
 
 
 ## Disclaimer-avalanche
-Disclaimer -2: Do not run my buggy code. I don't want to be responsible for borked machines.
-
-Disclaimer -1: Use a virtual machine or Docker.
 
 Disclaimer 0: All executed commands and returned content should be checked by the user. 
 
 Disclaimer 1: This will probably not replace you yet. Currently it's more akin to a better `tldr` which can also execute for you.
 
-Disclaimer 2: Do not run or use my code. This is trivial to do, let it be inspiration. This is just me frantically experimenting with ChatGPT.
-
-Disclaimer 3: No reversed API provided, I don't recommend doing it as it may violate ToS.
+Disclaimer 2: This is just me frantically experimenting with ChatGPT.
 
 ## Example Questions:
 - What is the CPU model and GPU?
