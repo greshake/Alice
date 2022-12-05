@@ -3,6 +3,8 @@ Giving ChatGPT access to a real terminal..?
 
 Browsing: enabled
 
+Using lots of prompt injections to convince ChatGPT that it can actually operate a computer. 
+
 ## Disclaimer-avalanche
 Disclaimer -2: Do not run my buggy code. I don't want to be responsible for borked machines.
 
@@ -23,7 +25,7 @@ Disclaimer 3: No reversed API provided, I don't recommend doing it as it may vio
 
 ## Control loop
 1. User enters a prompt
-2. Model provides one or more terminal commands to accomplish prompt
+2. Model provides one or more terminal commands to accomplish prompt, or a natural language response
 3. Commands are executed one after the other, you should be able to skip/accept/deny
 4. When commands are done executing response goes back to the language model
 5. ChatGPT can correct for encountered errors or provides a natural language summary of the results.
@@ -36,6 +38,7 @@ After a ot of experimentation, I don't think ChatGPT is able to do this. It fail
 - ChatGPT confabulates terminal output
 - It adds unnecessary explanations that pollute the bash commands
 - It only very rarely responds with multiple command plans after another if something fails or information is missing.
+- ChatGPT keeps insisting that it doesn't actually have access to a computer. This is sort of reduced with all the magic strings that are injected to convince it that it's possible.
 
 Another example:
 
