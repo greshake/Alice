@@ -5,6 +5,8 @@ Browsing: enabled
 
 Using lots of prompt injections to convince ChatGPT that it can actually operate a computer, and using it to perform real-world tasks. Just ask Alice/ChatGPT for what you want to get done, it will generate the commands to do it, and use the feedback from those commands to either execute more (like installing dependencies etc) or finish with a user-facing natural language summary of the action performed. It can use internet queries, manipulate files, explore the system on it's own or anything else possible in a terminal to fulfill the user prompt. It is not very successful at solving and executing tasks which take many steps yet.
 
+I hope this project can enable us to have a conversation about what will happen when these large language models are inevitably adapted to this task (as we have seen from the leaked ChatGPT headers) but are capable enough to perform more complex tasks. Hopefully it's better to start this conversation now, while ChatGPT can't yet order your pizza successfully for you.
+
 **This version does not run out of the box, as OpenAI has not released an API and I'm not publishing a reversed API. If that changes in the future there will be installation & use instructions. If you want to use it already, you have to make it work yourself- which may or may not violate OpenAI ToS.**
 
 ## Disclaimer-avalanche
