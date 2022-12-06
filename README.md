@@ -50,4 +50,4 @@ After a ot of experimentation, I don't think ChatGPT is able to do this. It fail
 
 Another example:
 
-![Real-world example](https://raw.githubusercontent.com/greshake/Alice/master/screenshots/img.png))
+![Real-world example](https://raw.githubusercontent.com/greshake/Alice/master/screenshots/img.png)
