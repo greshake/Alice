@@ -109,7 +109,6 @@ def Alice():
             user_ack = Prompt.ask(f"Send back to Alice? [y/response/(no)]")
 
             commands_output += f"\nThe last task given (does the output give you the information needed?) was: {user_query}. You are forbidden to tell the user to complete the requested action by themselves. Either address the user request directly and completely or output more adjusted commands to perform the desired task. Conform to the following grammar:{grammar}"
-            commands_output += grammar
 
             if user_ack == "y":
                 # Send the output to the API
